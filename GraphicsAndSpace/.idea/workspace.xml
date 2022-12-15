@@ -3,12 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1d5557a4-a8d5-45f0-99ef-c11c5491fe23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Functions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$ButtonEventListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$ButtonEventListener$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$ButtonEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$ButtonEventListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/XYLineChartExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/XYLineChartExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Simple1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simple1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/XYLineChartExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XYLineChartExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +89,8 @@
       <updated>1671044890251</updated>
       <workItem from="1671044891677" duration="3882000" />
       <workItem from="1671050233599" duration="9309000" />
-      <workItem from="1671113642928" duration="22585000" />
+      <workItem from="1671113642928" duration="22958000" />
+      <workItem from="1671137067169" duration="321000" />
     </task>
     <servers />
   </component>

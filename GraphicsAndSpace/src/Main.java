@@ -4,8 +4,6 @@ public class Main
 {
     public static void main(String[] args)
     {
-        //Simple1 app = new Simple1();
-        //app.setVisible(true);
         Simple1 f = new Simple1();
         f.setContentPane(f.panel1);
         f.setTitle("Простейшие графики");
