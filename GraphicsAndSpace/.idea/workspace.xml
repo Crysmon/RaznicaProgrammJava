@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d5557a4-a8d5-45f0-99ef-c11c5491fe23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Functions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$ButtonEventListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$ButtonEventListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$ButtonEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphicsAndSpace/Simple1$ButtonEventListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Simple1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simple1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,9 @@
       <workItem from="1671568478036" duration="822000" />
       <workItem from="1671569359188" duration="69000" />
       <workItem from="1671569440335" duration="12000" />
-      <workItem from="1671569508083" duration="32000" />
+      <workItem from="1671569508083" duration="112000" />
+      <workItem from="1671569867158" duration="12000" />
+      <workItem from="1671569909252" duration="12000" />
     </task>
     <servers />
   </component>
