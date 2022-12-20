@@ -7,7 +7,6 @@ import org.jfree.chart.plot.CategoryPlot;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.xy.*;
-
 import java.security.PrivateKey;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutorService;
@@ -15,7 +14,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -185,8 +183,17 @@ public class Simple1 extends JFrame
     class ButtonEventListener implements ActionListener {
         public void actionPerformed(ActionEvent e)
         {
+
             double top = Double.parseDouble(input1.getText());
             double bot = Double.parseDouble(input2.getText());
+
+            if(bot>=top)
+            {
+                String message = "";
+                message += "Введены некорректные значения!\n Убедитесь, что значения нижнего предела меньше, чем верхнего!";
+                JOptionPane.showMessageDialog(null, message, "Ошибка", JOptionPane.PLAIN_MESSAGE);
+                return;
+            }
             if(!((FuncSwitch==5 || FuncSwitch==7) && bot<=0)) {
                 SwingUtilities.invokeLater(new Runnable() {
                     @Override
@@ -197,17 +204,10 @@ public class Simple1 extends JFrame
                 String message = "";
                 message += "График функции"  + " был выполнен!";
                 Simple1 f = new Simple1();
-            /*f.setContentPane(f.panel1);
-            f.setTitle("bruh");
-            f.setSize(500, 500);
-            f.setVisible(true);
-            f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-*/
                 double integralStart = bot;
                 double integralEnd = top;
                 double integralPrecision = 0.001;
                 double integralRes = f.Integral(integralStart, integralEnd, integralPrecision);
-                // JOptionPane.showMessageDialog(f, "Integral from " + String.valueOf(integralStart) + " to " + String.valueOf(integralEnd) + " is " + String.valueOf(integralRes) + " (precision: " + String.valueOf(integralPrecision) + ")");
                 message += "\nИнтеграл выбранной функции " +((check.isSelected()) ? String.valueOf(integralRes) : "не был высчитан по вашему решению");
                 JOptionPane.showMessageDialog(null, message, "Output", JOptionPane.PLAIN_MESSAGE);
             }
@@ -215,7 +215,7 @@ public class Simple1 extends JFrame
             String message = "";
             message += "График функции не был выполнен!";
             message += "\nИнтеграл выбранной функции невозможно высчитать!";
-            JOptionPane.showMessageDialog(null, message, "Output", JOptionPane.PLAIN_MESSAGE);
+            JOptionPane.showMessageDialog(null, message, "Ошибка!", JOptionPane.PLAIN_MESSAGE);
             }
         }
     }
